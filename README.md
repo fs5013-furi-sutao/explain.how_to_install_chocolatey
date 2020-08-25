@@ -1,0 +1,2 @@
+# explain.how_to_install_chocolatey
+Windows 向けのパッケージ管理ツール Chocolatey のインストール方法などを説明します
