@@ -104,7 +104,8 @@ Chocolatey installed 3/3 packages.
  ```
 
 
-a5m2 を入れてみた。
+a5m2 を入れてみた。  
+https://kai2nenobu.github.io/my-chocolatey-packages/
 
 ```console
 PS C:\WINDOWS\system32> choco source add --name kai2nenobu --source https://www.myget.org/F/kai2nenobu
