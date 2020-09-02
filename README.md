@@ -102,3 +102,40 @@ Added C:\ProgramData\chocolatey\bin\chocolateyguicli.exe shim pointed to 'c:\pro
 Chocolatey installed 3/3 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
  ```
+
+
+a5m2 を入れてみた。
+
+```console
+PS C:\WINDOWS\system32> choco source add --name kai2nenobu --source https://www.myget.org/F/kai2nenobu
+Chocolatey v0.10.15
+Added kai2nenobu - https://www.myget.org/F/kai2nenobu (Priority 0)
+PS C:\WINDOWS\system32> choco install a5m2
+Chocolatey v0.10.15
+Installing the following packages:
+a5m2
+By installing you accept licenses for the packages.
+Progress: Downloading a5m2 2.15.1... 100%
+
+a5m2 v2.15.1
+a5m2 package files install completed. Performing other installation steps.
+The package a5m2 wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Downloading a5m2 64 bit
+  from 'https://a5m2.mmatsubara.com/download/a5m2_2.15.1_x64.zip'
+Progress: 100% - Completed download of C:\Users\N_hashimoto\AppData\Local\Temp\chocolatey\a5m2\2.15.1\a5m2_2.15.1_x64.zip (15.2 MB).
+Download of a5m2_2.15.1_x64.zip (15.2 MB) completed.
+Hashes match.
+Extracting C:\Users\N_hashimoto\AppData\Local\Temp\chocolatey\a5m2\2.15.1\a5m2_2.15.1_x64.zip to C:\ProgramData\chocolatey\lib\a5m2\a5m2...
+C:\ProgramData\chocolatey\lib\a5m2\a5m2
+ The install of a5m2 was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\a5m2\a5m2'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+PS C:\WINDOWS\system32>
+```
