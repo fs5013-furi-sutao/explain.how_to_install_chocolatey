@@ -26,7 +26,9 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 ```
 Getting latest version of the Chocolatey package for download.
 Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.
-Extracting C:\Users\N_HASH~1\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip to C:\Users\N_HASH~1\AppData\Local\Temp\chocolatey\chocInstall...
+Downloading 7-Zip commandline tool prior to extraction.
+Extracting C:\Users\＜ユーザ名＞\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip to 
+    C:\Users\＜ユーザ名＞\AppData\Local\Temp\chocolatey\chocInstall...
 Installing chocolatey on this machine
 Creating ChocolateyInstall as an environment variable (targeting 'Machine')
   Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
@@ -45,11 +47,8 @@ WARNING: You can safely ignore errors related to missing log files when
   upgrading from a version of Chocolatey less than 0.9.9.
   'Batch file could not be found' is also safe to ignore.
   'The system cannot find the file specified' - also safe.
-chocolatey.nupkg file not installed in lib.
- Attempting to locate it from bootstrapper.
-PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
-警告: Not setting tab completion: Profile file does not exist at
-'C:\Users\N_hashimoto\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Adding Chocolatey to the profile. This will provide tab completion, refreshenv, etc.
+WARNING: Chocolatey profile installed. Reload your profile - type . $profile
 Chocolatey (choco.exe) is now ready.
 You can call choco from anywhere, command line or powershell by typing choco.
 Run choco /? for a list of functions.
