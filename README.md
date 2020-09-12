@@ -129,4 +129,4 @@ Chocolatey GUI は、GUI でアプリのインストール、アンインスト�
 
 画面右上のフロッピーディスクアイコンからエクスポートを実行できる。
 
-!(Chocolatey GUI)[./chocolatey.png]
+![Chocolatey GUI](./chocolatey.png)
