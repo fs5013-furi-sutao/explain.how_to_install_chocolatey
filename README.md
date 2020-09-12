@@ -16,6 +16,11 @@ https://rimever.hatenablog.com/entry/2019/09/03/070000
 デフォルトのインストールパスは[C:\ProgramData\chocolatey\lib\sysinternals]となる。  
 
 ## インストール  
+インストール方法は公式ドキュメントに詳しい記載がある。
+
+Chocolatey Software | Installing Chocolatey  
+https://chocolatey.org/install
+
 以下のコマンドを実行して、Chocolatey のインストールを行う。注意点としては、コマンドの実行は管理者で開いた PowerShell で実行すること。
 
 ```console
