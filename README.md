@@ -36,6 +36,7 @@ Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15
 Downloading 7-Zip commandline tool prior to extraction.
 Extracting C:\Users\＜ユーザ名＞\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip to 
     C:\Users\＜ユーザ名＞\AppData\Local\Temp\chocolatey\chocInstall...
+    
 Installing chocolatey on this machine
 Creating ChocolateyInstall as an environment variable (targeting 'Machine')
   Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
@@ -82,14 +83,7 @@ Installing the following packages:
 chocolateygui
 By installing you accept licenses for the packages.
 Progress: Downloading ChocolateyGUI 0.17.2... 100%
-Progress: Downloading chocolatey-core.extension 1.3.5.1... 100%
 Progress: Downloading DotNet4.5.2 4.5.2.20140902... 100%
-
-chocolatey-core.extension v1.3.5.1 [Approved]
-chocolatey-core.extension package files install completed. Performing other installation steps.
- Installed/updated chocolatey-core extensions.
- The install of chocolatey-core.extension was successful.
-  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-core'
 
 DotNet4.5.2 v4.5.2.20140902 [Approved]
 dotnet4.5.2 package files install completed. Performing other installation steps.
@@ -97,7 +91,7 @@ The package DotNet4.5.2 wants to run 'ChocolateyInstall.ps1'.
 Note: If you don't run this script, the installation will fail.
 Note: To confirm automatically next time, use '-y' or consider:
 choco feature enable -n allowGlobalConfirmation
-Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): Y
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
 
 Microsoft .Net 4.5.2 Framework is already installed on your machine.
  The install of dotnet4.5.2 was successful.
@@ -110,17 +104,21 @@ The package ChocolateyGUI wants to run 'chocolateyInstall.ps1'.
 Note: If you don't run this script, the installation will fail.
 Note: To confirm automatically next time, use '-y' or consider:
 choco feature enable -n allowGlobalConfirmation
-Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): Y
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
 
 Installing ChocolateyGUI...
 ChocolateyGUI has been installed.
-Added C:\ProgramData\chocolatey\bin\chocolateygui.exe shim pointed to 'c:\program files (x86)\chocolatey gui\chocolateygui.exe'.
-Added C:\ProgramData\chocolatey\bin\chocolateyguicli.exe shim pointed to 'c:\program files (x86)\chocolatey gui\chocolateyguicli.exe'.
+Added C:\ProgramData\chocolatey\bin\chocolateygui.exe shim pointed to 
+    'c:\program files (x86)\chocolatey gui\chocolateygui.exe'.
+    
+Added C:\ProgramData\chocolatey\bin\chocolateyguicli.exe shim pointed to 
+    'c:\program files (x86)\chocolatey gui\chocolateyguicli.exe'.
+    
   chocolateygui may be able to be automatically uninstalled.
  The install of chocolateygui was successful.
   Software installed as 'msi', install location is likely default.
 
-Chocolatey installed 3/3 packages.
+Chocolatey installed 2/2 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
  ```
 
