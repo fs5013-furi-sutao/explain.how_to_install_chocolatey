@@ -1,5 +1,5 @@
-# explain.how_to_install_chocolatey
-Windows 向けのパッケージ管理ツール Chocolatey のインストール方法などを説明します
+# Chocolatey のインストール方法
+Windows 向けのパッケージ管理ツール Chocolatey のインストール方法などを説明する。
 
 Chocolatey は Scoop で管理できない、管理者権限がからむようなアプリの管理に使いたい。
 
