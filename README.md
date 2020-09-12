@@ -15,7 +15,9 @@ https://rimever.hatenablog.com/entry/2019/09/03/070000
 
 デフォルトのインストールパスは[C:\ProgramData\chocolatey\lib\sysinternals]となる。  
 
-ログ
+## インストール  
+以下のコマンドを実行して、Chocolatey のインストールを行う。注意点としては、コマンドの実行は管理者で開いた PowerShell で実行すること。
+
 ```console
 Set-ExecutionPolicy Bypass -Scope Process -Force; `
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
