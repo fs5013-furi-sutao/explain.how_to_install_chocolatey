@@ -5,7 +5,7 @@ Chocolatey は Scoop で管理できない、管理者権限がからむよう�
 
 ユーザ単位でアプリを管理できるものは Scoop を利用する。
 
-Scoop とは（メリットと使い方：  
+Scoop とは（メリットと使い方）：  
 https://github.com/fs5013-furi-sutao/explain.scoop
 
 インストールなどの参考サイトは以下。
@@ -28,6 +28,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
+
+実行ログ：  
 ```
 Getting latest version of the Chocolatey package for download.
 Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.
@@ -72,6 +74,8 @@ https://chocolatey.org/packages/ChocolateyGUI
 ```console
 choco install chocolateygui
 ```
+
+実行ログ：  
 ```
 Chocolatey v0.10.15
 Installing the following packages:
