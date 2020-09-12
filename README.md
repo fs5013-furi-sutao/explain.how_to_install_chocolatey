@@ -3,6 +3,11 @@ Windows 向けのパッケージ管理ツール Chocolatey のインストール
 
 Chocolatey は Scoop で管理できない、管理者権限がからむようなアプリの管理に使いたい。
 
+ユーザ単位でアプリを管理できるものは Scoop を利用する。
+
+Scoop とは（メリットと使い方：  
+https://github.com/fs5013-furi-sutao/explain.scoop
+
 インストールなどの参考サイトは以下。
 
 ChocolateyでWindows環境を管理する：  
