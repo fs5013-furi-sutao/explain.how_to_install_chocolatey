@@ -63,6 +63,12 @@ Ensuring chocolatey commands are on the path
 Ensuring chocolatey.nupkg is in the lib folder
 ```
 
+## Chocolatey GUI
+手始めに、Chocolatey GUI をインストールする。
+
+Chocolatey Software | Chocolatey GUI  
+https://chocolatey.org/packages/ChocolateyGUI
+
 ```console
 choco install chocolateygui
 ```
